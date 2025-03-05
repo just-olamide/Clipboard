@@ -190,6 +190,8 @@ footer{
 @media screen and (max-width:500px) {
    .hero-image{
     background-image: url("/images/bg-header-mobile.png");
+    width: 100%;
+    background-size: cover;
    }
    
    .hero-icon img{
@@ -224,8 +226,9 @@ footer{
     flex-direction: column;
 }
 .Text1{
-    width: 100%;
+    width: 95%;
     text-align: center;
+    font-weight: 100;
 }
 .image1 img{
     justify-items: center;
@@ -234,20 +237,29 @@ footer{
 .fifth{
     justify-content: center;
     text-align: center;
+    width: 90%;
+    font-size: 16px;
 }
 .sixth{
     text-align: center;
+    width: 90%;
 }
 .trio{
     display: flex;
     flex-direction: column;
+    width: 90%;
 }
 .pent{
     display: flex;
     flex-direction: column;
 }
+.pent1 img{
+    width: 80%;
+}
 .seventh{
     text-align: center;
+    width: 90%;
+    margin-left: 10px;
 }
 footer{
     width: 100%;
