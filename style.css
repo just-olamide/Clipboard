@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-image{
+    background-image: url("/images/bg-header-desktop.png");
+    position: relative;
+    display: block;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.hero-image2{
+    background-image: url("/images/bg-header-mobile.png");
+    display: none;
+}
+.hero-icon img{
+    /* margin: 10px auto; */
+    margin-left: 45%;
+    margin-top: 10% ;
+
+}
+.second{
+    justify-items: center;
+}
+.second h2{
+    margin-bottom: 10px;
+    font-family: Bai Jamjuree;
+}
+.second p{
+    font-family: Bai Jamjuree;
+}
+.button1{
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+}
+button{
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    
+}
+.button2 :hover{
+    background-color: #24AB98;
+    box-shadow: 2px 2px 1px 4px #24AB98;
+}
+.button3 :hover{
+    background-color: #5F75FE;
+    box-shadow: 2px 2px 1px 4px #5F75FE;
+}
+.Third{
+    justify-items: center;
+    margin-top: 100px;
+}
+.Third h2{
+    margin-bottom: 20px;
+    font-family: Bai Jamjuree;
+}
+.Third p{
+    line-height: 20px;
+    font-family: Bai Jamjuree;
+}
+.fourth{
+    display: flex;
+    margin-top: 60px;
+    width: 100%;
+    font-family: Bai Jamjuree;
+    /* gap: 90px; */
+}
+.image1{
+    width: 70%;
+}
+.image1 img{
+    width: 70%;
+    margin-left: 70px;
+}
+.Text1{
+    width: 30%;
+    margin-top: 50px;
+    line-height: 25px;
+}
+.Text1 h3{
+    margin-top: 30px;
+}
+.fifth{
+    justify-items: center;
+    margin-top: 70px;
+    font-family: Bai Jamjuree;
+}
+.fifth h2{
+    margin-bottom: 20px;
+
+}
+.fifth p{
+    line-height: 25px;
+}
+.fifth img{
+    margin-top: 80px;
+    width: 85%;
+}
+.trio{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 30px;
+    font-family: Bai Jamjuree;
+}
+.sixth{
+    justify-items: center;
+    font-family: Bai Jamjuree;
+}
+.sixth p{
+margin-top: 15px;
+}
+.note{
+    text-align: center;
+    line-height: 15px;
+}
+.note h3{
+    margin-top: 30px;
+}
+.plain{
+    line-height: 15px;
+    text-align: center;
+}
+.plain h3{
+    margin-top: 40px;
+}
+.eye{
+    text-align: center;
+    line-height: 15px;
+}
+.eye h3{
+    margin-top: 40px;
+}
+.pent{
+    display: flex;
+    margin-top: 100px;
+    gap: 60px;
+}
+.seventh{
+    justify-items: center;
+    margin-top: 100px;
+    font-family: Bai Jamjuree;
+}
+.seventh h2{
+    margin-bottom: 20px;
+}
+.seventh p{
+    line-height: 25px;
+}
+footer{
+    background-color: #F5F6F8;
+    width: 100%;
+    padding: 40px;
+    margin-top: 10%;
+}
+.eighth{
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+}
+.logo img{
+    width: 50%;
+}
+.texts p{
+    line-height: 30px;
+}
+.socials{
+    display: flex;
+    margin-left: 25%;
+    gap: 20px;
+}
+
+
+@media screen and (max-width:500px) {
+   .main{
+    width: 100%;
+   } 
+   .hero-image{
+    background-image: url("/images/bg-header-mobile.png");
+   }
+   
+   .hero-icon img{
+    margin-top: 35%;
+    margin-left: 30%;
+   }
+   .second{
+    justify-items: center;
+   }
+   .second h2{
+    text-align: center;
+    width: 70%;
+   }
+   .second p{
+    text-align: center;
+   }
+.button1{
+    display: flex;
+    flex-direction: column;
+}
+.Third{
+    justify-items: center;
+    text-align: center;
+}
+.Third P{
+    text-align: center;
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+}
+.Text1{
+    width: 100%;
+    text-align: center;
+}
+.fifth{
+    justify-content: center;
+    text-align: center;
+}
+.sixth{
+    text-align: center;
+}
+.trio{
+    display: flex;
+    flex-direction: column;
+}
+.pent{
+    display: flex;
+    flex-direction: column;
+}
+.seventh{
+    text-align: center;
+}
+footer{
+    width: 100%;
+}
+.eighth{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 0;
+    gap: 0;
+    line-height: 25px;
+}
+.logo img{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.socials{
+    margin-top: 20px;
+}
+}
