@@ -42,13 +42,13 @@ button{
     cursor: pointer;
     
 }
-.button2 :hover{
+.button2 button{
     background-color: hsl(171, 66%, 44%);
-    box-shadow: 2px 2px 7px 1px  hsl(171, 66%, 44%);
+    box-shadow: 2px 2px 9px 10px  #DDF7EE;
 }
-.button3 :hover{
+.button3 button{
     background-color: hsl(233, 100%, 69%);
-    box-shadow: 2px 2px 7px 1px hsl(233, 100%, 69%);
+    box-shadow: 2px 2px 9px 10px  #ECECEB; 
 }
 .Third{
     justify-items: center;
@@ -82,6 +82,13 @@ button{
 }
 .Text1 h3{
     margin-top: 30px;
+}
+.texts a{
+    text-decoration: none;
+    color: black;
+}
+.texts a:hover{
+    color: hsl(171, 66%, 44%);
 }
 .fifth{
     justify-items: center;
@@ -164,9 +171,11 @@ footer{
 .logo img{
     width: 50%;
 }
-#contact:hover{
-     color: #24AB98;
-     cursor: pointer;
+.Contact{
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
+     line-height: 25px;
 }
 .texts p{
     line-height: 30px;
